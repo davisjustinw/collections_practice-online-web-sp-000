@@ -50,7 +50,7 @@ end
 
 def add_s(words)
   words.each_with_index.collect do |word, index| 
-    word << s  if index != 1
+    word << 's'  if index != 1
   end
 end
 
