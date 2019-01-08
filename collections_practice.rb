@@ -3,9 +3,13 @@ def sort_array_asc(integers)
 end
 
 def sort_array_desc(integers)
-  integers.sort { |x,y| y <=> x}
+  integers.sort { |x,y| y <=> x }
 end
   
 def sort_array_char_count(strings)
   strings.sort { |a,b| a.length <=> b.length }
+end
+
+def swap_elements(elements)
+  
 end
