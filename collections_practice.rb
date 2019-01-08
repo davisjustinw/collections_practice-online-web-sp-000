@@ -33,4 +33,5 @@ def kesha_maker(elements)
 end
 
 def find_a(words)
-  words.select
+  words.select {|word| word[0] == 'a'}
+end
