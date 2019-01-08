@@ -20,4 +20,3 @@ def swap_elements_from_to(elements, first, second)
   elements[second] = buffer
   elements
 end
-[0,1,2,3,4,5] 0,1 1,0 2,2
