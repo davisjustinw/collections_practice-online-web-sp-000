@@ -47,6 +47,7 @@ def add_s(words)
 end
 
 def test
-  [1,2].each_with_index.collect{|element, index| }
+  [1,2].each_with_index.collect{|element, index| binding.pry}
+end
     
     
