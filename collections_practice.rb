@@ -45,5 +45,8 @@ def add_s(words)
   words.collect { |word| word << 's' }
   words.insert(1, buffer)
 end
+
+def test
+  
     
     
