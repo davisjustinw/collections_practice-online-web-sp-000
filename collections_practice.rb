@@ -13,3 +13,4 @@ end
 def swap_elements(elements)
   elements.insert(1, elements.delete_at(2))
 end
+[0,1,2,3,4,5] 0,1 1,0 2,2
