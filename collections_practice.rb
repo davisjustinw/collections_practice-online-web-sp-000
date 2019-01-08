@@ -41,15 +41,16 @@ def sum_array(numbers)
   numbers.inject(0) { |sum, n| sum += n }
 end
 
-def add_s(words)
+=begin def add_s(words)
   buffer = words.delete_at(1)
   words.collect { |word| word << 's' }
   words.insert(1, buffer)
 end
+=end
 
-def test
-  [1,2].each_with_index.collect{|element, index| binding.pry}
+def add_s(words)
+  words.each_with_index.collect do |element, index| 
+    word << s  if index != 1
+  end
 end
 
-test    
-    
