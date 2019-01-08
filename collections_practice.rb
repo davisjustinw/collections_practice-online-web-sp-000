@@ -37,3 +37,4 @@ def find_a(words)
 end
 
 def sum_array(numbers)
+  numbers.reduce(0) { |
