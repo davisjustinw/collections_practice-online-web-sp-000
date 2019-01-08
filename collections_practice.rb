@@ -41,6 +41,10 @@ def sum_array(numbers)
 end
 
 def add_s(words)
-  words.each_index do |index|
+  buffer = words[1]
+  words.collect { |word| word << 's' }
+  words[1] = buffer
+  words
+end
     
     
