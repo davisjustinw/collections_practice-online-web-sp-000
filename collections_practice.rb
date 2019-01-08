@@ -13,4 +13,11 @@ end
 def swap_elements(elements)
   elements.insert(1, elements.delete_at(2))
 end
+
+def swap_elements_from_to(elements, first, second)
+  buffer = elements[first]
+  elements[first] = elements[second]
+  elements[second] = buffer
+  elements
+end
 [0,1,2,3,4,5] 0,1 1,0 2,2
