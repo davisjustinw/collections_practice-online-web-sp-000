@@ -26,4 +26,8 @@ def reverse_array(collection)
 end
 
 def kesha_maker(elements)
-  elements.collect { |elements| element.replace
+  elements.collect do |element|
+    element[2] = '$'
+    element
+  end
+end
