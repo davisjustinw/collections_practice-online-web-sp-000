@@ -12,5 +12,4 @@ end
 
 def swap_elements(elements)
   elements.insert(1, elements.delete_at(2))
-  [0, 1, 2, 3]
 end
