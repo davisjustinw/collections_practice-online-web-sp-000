@@ -41,7 +41,7 @@ def sum_array(numbers)
 end
 
 def add_s(words)
-  buffer = words[1]
+  words.delete_at[1]
   words.collect { |word| word << 's' }
   words[1] = buffer
   words
