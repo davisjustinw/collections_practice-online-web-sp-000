@@ -20,3 +20,7 @@ def swap_elements_from_to(elements, first, second)
   elements[second] = buffer
   elements
 end
+
+def reverse_array(collection)
+  collection.reverse
+end
