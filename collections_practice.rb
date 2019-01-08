@@ -31,3 +31,6 @@ def kesha_maker(elements)
     element
   end
 end
+
+def find_a(words)
+  
