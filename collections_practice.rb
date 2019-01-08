@@ -44,7 +44,6 @@ def add_s(words)
   buffer = words.delete_at(1)
   words.collect { |word| word << 's' }
   words.insert(1, buffer)
-  words
 end
     
     
