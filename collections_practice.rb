@@ -41,5 +41,6 @@ def sum_array(numbers)
 end
 
 def add_s(words)
-  words.each_index do |word|
+  words.each_index do |index|
+    
     
