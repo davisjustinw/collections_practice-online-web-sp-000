@@ -24,3 +24,6 @@ end
 def reverse_array(collection)
   collection.reverse
 end
+
+def kesha_maker(elements)
+  elements.collect { |elements| element.replace
