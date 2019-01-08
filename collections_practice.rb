@@ -33,4 +33,4 @@ def kesha_maker(elements)
 end
 
 def find_a(words)
-  
+  words.select
